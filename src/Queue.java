@@ -91,7 +91,7 @@ public class Queue {
 	/**
 	 * adds the given value to the end of the queue
 	 * <p> has side-effects</p>
-	 * <p> </p>
+	 * <p> is referntially transparent</p>
 	 * @param value the value to be added to the queue
 	 */
 	public void enqueue(int value) {
